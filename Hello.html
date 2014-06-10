@@ -1,0 +1,124 @@
+<!-- 2014-02-17, Gavin Created
+    html and Javascript Testing 001
+    http://www.w3school.com.cn/js/js_intro.asp
+-->
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!--调用外部样式表-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!--内部Javascript-->
+    <script>
+    document.write("<h2>This is a heading-h2, Javascript</h2>");
+    document.write("<p>This is a paragraph</p>");
+    </script>
+
+    <!--调用外部js脚本-->
+    <script type="text/javascript" src="./js/hello.js"></script>
+    <script type="text/javascript" src="./js/variables.js"></script>
+    <script type="text/javascript" src="./js/operators.js"></script>
+    <script type="text/javascript" src="./js/statements.js"></script>
+    <script type="text/javascript" src="./js/loops.js"></script>
+
+  </head>
+
+  <body>
+    <h1>Hello Gavin-H1</h1>
+    <p>请输入数字！</p>
+    <input id="Demo" type="text" />
+    <!--验证输入的是否为数字-->
+    <button type="button" onclick="myFunciton()" style="height:auto; width:100px">点击这里</button>
+    <br/>
+
+    <hr/>
+    <p id="demo1">This will disappear!</p>
+    <button onclick="disappear()">点击这里文字替换！</button>
+    <br/>
+
+    <hr/>
+    <img id="myimage" onclick="changeImage()" src="./images/eg_bulboff.gif" />
+    <p>点击灯泡来点亮或熄灭这盏灯</p>
+    <br/>
+
+    <!--计算圆形的面积-->
+    <hr/>
+    <h1>圆形面积计算</h1>
+    <p>请输入半径（厘米）:</p>
+    <input id="radius" type="text" />
+    <button type="button" onclick="MianJi()" style="height:auto; width:100px">计算面积</button>
+    <br/>
+    <p id="results">当前结果为：0</p>
+    <br/>
+
+    <!--加法运算-->
+    <hr/>
+    <h1>加法运算</h1>
+    <p>假设 y=5，计算 x=y+2，并显示结果。</p>
+    <button onclick="sum()">点击这里</button>
+    <p id="results2"></p>
+
+    <!--字符串-->
+    <hr/>
+    <h1>字符串</h1>
+    <button onclick="strings()">点击这里显示字符串</button>
+    <p id="results3"></p>
+
+    <!--数字-->
+    <hr/>
+    <h1>数字</h1>
+    <button onclick="showData()">点击这里显示数字</button>
+    <p id="results4"></p>
+
+    <!--数组-->
+    <hr/>
+    <h1>数组</h1>
+    <button onclick="showArray()">点击这里显示数组</button>
+    <p id="results5"></p>
+
+    <!--对象-->
+    <hr/>
+    <h1>对象</h1>
+    <button onclick="showObjects()">点击这里显示对象</button>
+    <p id="results6"></p>
+
+    <!--带参数的函数-->
+    <hr/>
+    <h1>带参数的函数</h1>
+    <button onclick="myArguments('Gavin','Project Manager')">点击这里显示对象</button>
+    <p id="results7"></p>
+
+    <!--运算符-->
+    <hr/>
+    <h1>运算符</h1>
+    <button onclick="myOperators('Gavin','Project Manager')">点击这里显示运算符</button>
+    <p id="results8"></p>
+    <p><strong>如果把数字与字符串相加，结果将成为字符串。</strong></p>
+
+    <!--if-else-->
+    <hr/>
+    <h1>if-else语句</h1>
+    <p>点击这个按钮，获得基于时间的问候。</p>
+    <button onclick="showGreeting()">点击这里显示问候</button>
+    <p id="results9"></p>
+
+    <!--Swich语句-->
+    <hr/>
+    <h1>Swich语句</h1>
+    <p>点击下面的按钮来显示今天是周几：</p>
+    <button onclick="showSwich()">点击这里显示Swich语句</button>
+    <p id="results10"></p>
+
+    <!--For 循环-->
+    <hr/>
+    <h1>For 循环</h1>
+    <p>点击下面的按钮来显示For循环：</p>
+    <button onclick="forLoop()">点击这里显示For循环</button>
+    <p id="results11"></p>
+
+    <!--End date: 2014-03-02-->
+
+  </body>
+</html>

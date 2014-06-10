@@ -1,0 +1,40 @@
+<!-- 2014-03-23, Gavin Created
+    html and Javascript Testing 004
+    http://www.w3school.com.cn/js/js_intro.asp
+-->
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!--调用外部样式表-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!--内部Javascript-->
+    <script>
+    document.write("<h2>This is a heading-h2, Javascript</h2>");
+    document.write("<p>This is a paragraph</p>");
+    </script>
+
+    <!--调用外部js脚本-->
+    <script type="text/javascript" src="./js/validation.js"></script>
+
+  </head>
+
+  <body>
+    
+    <h1>Hello Gavin-H1</h1>
+
+    <!--表单验证-->
+    <hr/>
+    <h1>我的 JavaScript 程序 -- 表单验证：Validation</h1>
+    <form action="validation-results.html" onsubmit="return validate_form(this)" method="post">
+    Name: <input type="text" name="name" size="30">
+    <br/>
+    Email:<span>*</span> <input type="text" name="email" size="30">
+    <input type="submit" value="Submit"> 
+    </form>
+    
+
+  </body>
+</html>

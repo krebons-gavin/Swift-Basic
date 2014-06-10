@@ -1,0 +1,69 @@
+<!-- 2014-03-02, Gavin Created
+    html and Javascript Testing 002
+    http://www.w3school.com.cn/js/js_intro.asp
+-->
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!--调用外部样式表-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!--内部Javascript-->
+    <script>
+    document.write("<h2>This is a heading-h2, Javascript</h2>");
+    document.write("<p>This is a paragraph</p>");
+    </script>
+
+    <!--调用外部js脚本-->
+    <script type="text/javascript" src="./js/loops.js"></script>
+
+  </head>
+
+  <body>
+    <h1>Hello Gavin-H1</h1>
+
+    <!--For 循环-->
+    <hr/>
+    <h1>For 循环</h1>
+    <p>点击下面的按钮来显示For循环：</p>
+    <button onclick="forLoop()">点击这里显示For循环</button>
+    <p id="results1"></p>
+
+    <!--For In循环-->
+    <hr/>
+    <h1>For In循环</h1>
+    <p>点击下面的按钮来显示For...In循环：</p>
+    <button onclick="forIn()">点击这里显示For...In循环</button>
+    <p id="results2"></p>
+
+    <!--While循环-->
+    <hr/>
+    <h1>While循环</h1>
+    <p>点击下面的按钮来显示While循环循环：</p>
+    <button onclick="whileLoop()">点击这里显示While循环</button>
+    <p id="results3"></p>
+
+    <!--Do...While循环-->
+    <hr/>
+    <h1>Do...While循环</h1>
+    <p>点击下面的按钮来显示Do...While循环：</p>
+    <button onclick="doWhileLoop()">点击这里显示循环</button>
+    <p id="results4"></p>
+
+    <!--带有Break的循环-->
+    <hr/>
+    <h1>带有Break的循环</h1>
+    <p>点击下面的按钮来显示带有Break的循环：</p>
+    <button onclick="breakLoop()">点击这里显示循环</button>
+    <p id="results5"></p>
+
+    <!--Lable：标记-->
+    <hr/>
+    <h1>Lable：标记</h1>
+    <p>点击下面的按钮来显示带有Lable的循环：</p>
+    <button onclick="jsLable()">点击这里显示标记</button>
+
+  </body>
+</html>
